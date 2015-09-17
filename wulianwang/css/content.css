@@ -1,0 +1,37 @@
+/*位置样式*/
+.weizhi                  {height:42px; padding:0px 10px 0; line-height:40px; margin:10px 0; vertical-align:middle; border-bottom:1px solid #CBDFF0;}
+.weizhi span             {float:right; display:block; width:500px; text-align:right; }
+.weizhi span img         {padding:0 5px;}
+.weizhi strong           {padding-left:20px; font-weight:300; color:#3D88D9;} 
+.weizhi b                {font-size:16px; color:#3D88D9; display:block; width:120px; float:left;}
+
+/*中间左部样式*/
+#nr_l                     {width:250px; float:left; margin-bottom:15px;}
+.nr_l_a                   {height:250px; margin-top:10px; line-height:22px; font-size:14px;}
+.nr_l_a img               {padding-bottom:8px;}                  
+
+/*中间右部样式*/
+#nr_r                     {width:740px; float:right; overflow:hidden; margin-bottom:15px;}
+
+/*列表页样式*/
+.nr_r_b                   {width:685px;}
+
+/*分页样式*/
+.fenye                     {clear:both; margin-top:15px; height:40px; padding-top:20px; text-align:right; border-top:1px solid #CBDFF0;}
+.fenye span                {padding:0 4px;}
+.fenye span strong         {color:#1D82EC; padding:0 3px;}
+.fenye img                 {padding:0 4px; margin-bottom:-8px;}
+  
+/*内容页样式*/
+.title_e                  {height:90px; padding-top:10px; text-align:center;}
+.title_e h3               {line-height:50px; font-size:16px;}
+.title_e p                {padding-bottom:8px; line-height:25px; background:#f8f8f8;}
+.nr_r_c                   {line-height:28px; font-size:14px; background:url(../images/wlwjs_r22_c11.jpg) no-repeat bottom;}
+.sx                       {padding:10px 0; margin-top:15px; border-top:1px dashed #ccc; border-bottom:1px dashed #ccc; }
+.sx p                     {line-height:26px; padding-left:5px;}
+	
+/*图片列表样式*/
+.mx ul                  {padding:10px 0 0 5px; margin-bottom:10px; clear:both;}
+.mx li                  {padding-top:5px; width:360px; margin-bottom:0px; height:230px; text-align:center; float:left;}
+.mx li p                {padding:5px 0; font-size:13px; color:#666;}
+

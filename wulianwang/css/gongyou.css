@@ -1,0 +1,61 @@
+@charset "utf-8";
+                   /*整体样式*/
+body                            {font-size:12px; margin:0px; background:#fff;}
+#top,#nav,#con_a,#con_b,#con_c,#con_d,#nr,#con_c,#nr,#link,#down{width:1000px; margin:0 auto; clear:both; overflow:hidden;}
+ul,li,h4,h3,p,a,h2,h5,h6,dl,dt,dd{margin:0px; padding:0px; list-style:none;}
+img                             {border:0px;}
+a:link,a:visited                {color:#454545; text-decoration:none;}
+a:hover,a:active                {color:#333; text-decoration:underline;}
+ 
+/*title样式*/
+.title_a                  {clear:both; position:relative; height:34px; background:url(../images/wlwjs_r6_c14.jpg) repeat-x 0px 0px;}
+.title_a h3               {float:left; padding:16px 0 0 80px; position:absolute; top:-6px; left:-4px; height:30px; width:69px; background:url(../images/wlwjs_r4_c10.jpg) no-repeat 0px 0px; color:#1D51A7; font-size:14px;}
+.title_a span             {float:right; padding:6px;}
+.title_b                  {clear:both; height:38px; background:url(../images/wlwjs_r16_c19.jpg) no-repeat 0px 0px;}
+.title_b h3               {float:left; height:38px; line-height:33px; font-size:14px; padding-left:10px; color:#fff;}
+.title_b span             {float:right; padding:5px 6px 0 0;}
+.title_b a:link,.title_b a:visited{color:#fff; text-decoration:none;}
+.title_b a:hover,.title_b a:active{color:#fff; text-decoration:underline;}
+.title_c                  {clear:both; height:52px; background:url(../images/wlwjs_r20_c3.jpg) no-repeat 0px 0px;}
+.title_c h3               {float:left; font-size:14px; padding:20px 0 0 50px; color:#1D82EC;}
+.title_c span             {float:right; padding:20px 6px 0 0;}
+.title_d                  {clear:both; height:38px; background:url(../images/hxgcx_r11_c12.jpg) repeat-x 0px 30px;}
+.title_d h3               {float:left; height:38px; line-height:33px; width:100px; background:url(../images/hxgcx_r25_c7.jpg) no-repeat 60px 30px;}
+.title_d span             {float:right; padding:10px 6px 0 0;}
+/*li样式*/
+.all_a                    {}
+.all_a li                 {clear:both; margin:0 5px; line-height:34px; border-bottom:1px dashed #ccc; height:34px; vertical-align:middle;}
+.all_a li a               {word-break:keep-all; white-space:nowrap; overflow:hidden; background:url(../images/wlwjs_r13_c11.jpg) no-repeat 0px 15px; text-overflow:ellipsis; float:left; padding-left:10px;}
+.all_a li span            {float:right;}
+.all_b li                 {clear:both; line-height:28px; height:28px; border-bottom:1px dashed #ccc; margin:0 5px; vertical-align:middle; }
+.all_b li a               {background:url(../images/wlwjs_r13_c11.jpg) no-repeat 0px 12px;  padding-left:8px; word-break:keep-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; float:left;}
+.all_c li                 {clear:both; line-height:25px; height:25px; margin:0 5px; vertical-align:middle; }
+.all_c li a               {background:url(../images/wlwjs_r13_c11.jpg) no-repeat 0px 8px;  padding-left:8px; word-break:keep-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; float:left;}
+.all_c li span            {float:right;}
+
+/*top样式*/
+#top                 {height:140px; background:url(../images/wlwjs_r1_c2.jpg) no-repeat top;}
+
+/*nav样式*/
+#nav                 {height:37px; font-size:14px; font-weight:bold; background:url(../images/wlwjs_r2_c25.jpg) repeat-x 0px 0px;}
+#div_center {height:23px; background:#003399; margin-left: auto;margin-right:auto;}  /*定义总体宽度、高度；background:003399; 控制背景颜色,居中对齐*/ 
+#nav { line-height: 35px; list-style-type: none;}         /*控制一级菜单行高；上边距5px；*/   
+#nav a { display: block; width: 166px; text-align:center; font-size:14px;} /*一级菜单链接总体样式：每个菜单的宽，居中对齐，文字大小*/ 
+#nav a:link  { color:#FFF; text-decoration:none;margin:0;}     /* 未访问的链接 */   
+#nav a:visited  {color:#FFF;text-decoration:none;margin:0;}    /* 已访问的颜色 */  
+#nav a:hover {color:#fff;text-decoration:underline;}                /* 鼠标在链接上 */
+#nav li {float: left;background:url(../images/wlwjs_r2_c22.jpg) no-repeat 0px 0px; line-height:35px; vertical-align:middle;}                   /* 一级菜左对齐 */ 
+#nav li a:hover{background:#;}     /* 鼠标在一级菜单上改变其背景色 */ 
+#nav li ul {line-height: 24px; background:#FFF; list-style-type: none;text-align:left;left: -999em; width:115px; position: absolute;}             /*二级菜单总体样式：行高24px；背景颜色；外框宽度；相对位置；边框一个象素，上边没样式，左右下边实线，边框颜色#003399；内边距1个象素*/
+#nav li ul a{display:block; font-size:12px; font-weight:300; border-bottom:1px solid #4C9B2B; width: 115px; background:#69B531; text-align:center;padding-left:2px;}                 /* 二级菜单链接样式；背景宽度、左对齐，左缩进2 */
+#nav li ul a:link  {color:#fff; text-decoration:none;}                                   /* 未访问的链接 */ 
+#nav li ul a:visited  {color:#fff;text-decoration:none;}                                 /* 已访问的链接 */
+#nav li ul a:hover  {color:#fff;text-decoration:underline;}/* 鼠标在链接上 */
+#nav li ul li  {background:none;}
+#nav li:hover ul {left: auto;}
+#nav li.sfhover ul {left: auto;}
+#content {clear: left;}
+
+/*底部样式*/
+#down                     {background:url(../images/wlwjs_r26_c20.jpg) repeat-x 0px 0px;height:84px; padding-top:30px; text-align:center;}
+#down p                   {line-height:26px;}

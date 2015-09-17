@@ -1,0 +1,24 @@
+.border                   {border:1px solid #CCDBE0;}
+/*con_a样式*/
+#con_a                    {padding-top:10px; height:230px;}
+.con_a_l                  {width:290px; height:220px; float:left; padding-right:10px;}
+.con_a_m                  {width:440px; height:220px; float:left;}
+.con_a_r                  {width:250px; height:220px; float:right;}
+.con_a_r p                {line-height:21px; font-size:14px;}
+
+/*con_c样式*/
+#con_c                    {height:220px;}
+.img-scrolla              {position:relative; padding-top:15px; width:995px; height:130px; }
+.img-scrolla .preva,.img-scrolla .nexta{position:absolute; cursor:pointer; display:block; top:25px; width:50px; height:80px;}
+.img-scrolla .preva       {left:0px; position:absolute; z-index:1000; background:url(../images/wlwjs_r23_c5.jpg) no-repeat 10px 0px;}
+.img-scrolla .nexta       {right:0px; position:absolute; z-index:1000; background:url(../images/wlwjs_r23_c24.jpg) no-repeat 0px 0px;}
+.img-lista                {position:relative; left:45px; width:900px; padding-top:2px; height:140px; overflow:hidden}
+.img-lista ul             {width:9999px;}
+.img-lista li             {float:left; display:inline; width:180px; height:110px; text-align:center;}
+.img-lista li img         {border:1px solid #ccc; padding:1px;}
+.img-lista li p           {padding-top:5px;}
+
+/*con_d样式*/
+#con_d                    {height:200px; padding-top:5px;}
+.con_d_l                  {width:740px; height:185px; float:left;}
+.con_d_r                  {width:250px; height:185px; float:right;}
